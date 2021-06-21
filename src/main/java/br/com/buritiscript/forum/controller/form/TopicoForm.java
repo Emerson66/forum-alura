@@ -1,11 +1,13 @@
 package br.com.buritiscript.forum.controller.form;
 
+import com.sun.istack.NotNull;
+
 import br.com.buritiscript.forum.model.Curso;
 import br.com.buritiscript.forum.model.Topico;
 import br.com.buritiscript.forum.repository.CursoRepository;
 
 public class TopicoForm {
-
+	@NotNull
 	private String titulo;
 	private String mensagem;
 	private String nomeCurso;
